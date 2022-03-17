@@ -10,7 +10,7 @@ import SwiftUI
 struct ExampleView { }
 
 extension ExampleView: View {
-
+  
   var body: some View {
     VStack {
       Rectangle()
@@ -19,11 +19,11 @@ extension ExampleView: View {
         .rotateOnTap(angle: Angle.degrees(5))
     }
   }
-
+  
 }
 
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
-    ContentView()
+    ExampleView()
   }
 }

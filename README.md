@@ -1,3 +1,3 @@
 # RotateOnTap
 
-A description of this package.
+Rotates the View to the Tap Position in one Axis. 
